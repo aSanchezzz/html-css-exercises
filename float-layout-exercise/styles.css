@@ -1,0 +1,44 @@
+h1.header {
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid black;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+h1.footer {
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  border-top: 3px solid black;
+  width: 100%;
+}
+
+.center_text {
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+}
+
+.sidebar {
+  float: left;
+  width: 30%;
+  height: 90%;
+  position: relative;
+  border: 3px solid black;
+  background-color: red;
+}
+
+.remaining {
+  height: 90%;
+  width: 68%;
+  float: right;
+  position: relative;
+  border: 3px solid black;
+  background-color: yellow;
+}
